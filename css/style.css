@@ -1,0 +1,430 @@
+
+*{
+    padding: 0;
+    margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+.main-header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 20px 20px;
+    background: rgb(255, 255, 255);
+
+}
+.main-logo {
+    padding-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+
+
+}
+
+nav a {
+
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+body {
+    font-family: fantasy;
+}
+
+
+
+.home {
+    height:100vh;
+    background-image: url("/image/channels4_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+.about {
+    background-color: #1C1C1C;
+    height: 80vh;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #F5F5F5;
+    padding: 3rem 2rem;
+    text-align: center;
+
+}
+
+.sect-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 10rem;
+}
+
+.sect-header p {
+    color: #F5F5F5;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.vidcon {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.vidcon iframe {
+    width: 90%;
+    height: 315px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.desc {
+    margin-top: 4rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+
+
+
+
+
+.contact {
+    background-color: aqua;
+    max-height: 75vh;
+}
+section {
+    text-align: center;
+
+}
+.contact {
+    max-width: 500px;
+    width: 90%;
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    background-color: #1C1C1C;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #C5A324;
+}
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    label {
+    color: #F5F5F5;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    font-size: 1rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 1.25rem;
+    background-color: #444;
+    color: #F5F5F5;
+    resize: vertical;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+    outline: 2px solid #7ab8ff;
+    background-color: #555;
+    }
+    textarea {
+    min-height: 100px;
+    }
+    button {
+    background-color: #7ab8ff;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    button:hover {
+    background-color: #\2F3B4C;
+    }
+    .contact-info {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #F5F5F5;
+    user-select: none;
+    }
+    .contact-info a {
+    color: #7ab8ff;
+    text-decoration: none;
+    }
+    .contact-info a:hover {
+    text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #1C1C1C;
+    color: #F5F5F5;
+    padding: 40px 20px;
+    font-size: 16px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer-brand {
+    flex: 1 1 220px;
+}
+.footer-brand h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.footer-brand p {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #F5F5F5;
+    font-size: 22px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+.footer-social a:hover {
+    color: #F5F5F5;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+
+@media (max-width: 1200px) {
+    .about {
+        margin-left: 40px;
+        margin-right: 40px;
+        height: auto;
+        padding: 2rem 1.5rem;
+    }
+    .sect-header h2 {
+        margin-top: 6rem;
+        font-size: 1.6rem;
+    }
+    .sect-header p {
+        font-size: 0.9rem;
+        margin-bottom: 3rem;
+    }
+    .vidcon iframe {
+        max-width: 90%;
+        height: 280px;
+    }
+    .desc {
+        max-width: 600px;
+        font-size: 0.9rem;
+        margin-top: 3rem;
+    }
+    .desc h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-header {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+    .vidcon {
+        flex-direction: column;
+    }
+    .vidcon iframe {
+        width: 100%;
+        height: 240px;
+    }
+    .about {
+        margin: 30px 20px;
+        border-radius: 20px;
+    }
+    .desc {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contact {
+        width: 95%;
+        padding: 1.5rem 1rem;
+        margin: 1rem auto;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 0.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-logo {
+        width: 50px;
+        height: 50px;
+        padding-left: 5px;
+    }
+    .sect-header h2 {
+        font-size: 1.4rem;
+        margin-top: 4rem;
+    }
+    .sect-header p {
+        font-size: 0.85rem;
+        margin-bottom: 2rem;
+    }
+    .vidcon iframe {
+        height: 200px;
+    }
+    .desc {
+        font-size: 0.85rem;
+        max-width: 100%;
+        margin-top: 2rem;
+        padding: 0 10px;
+    }
+    .desc h3 {
+        font-size: 1.1rem;
+    }
+    nav a {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-header {
+        padding: 10px 5px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        padding: 8px 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #ddd;
+    }
+    .about {
+        margin: 15px 10px;
+        padding: 1.5rem 1rem;
+        border-radius: 15px;
+    }
+    .vidcon iframe {
+        height: 160px;
+        max-width: 100%;
+    }
+    .desc {
+        font-size: 0.8rem;
+        padding: 0 5px;
+    }
+    .contact {
+        width: 100%;
+        max-width: none;
+        padding: 1rem 0.5rem;
+        margin: 1rem auto;
+    }
+    h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    button {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+    footer {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-brand {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .footer-social a {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .home {
+        background-attachment: scroll;
+        background-position: center top;
+    }
+}

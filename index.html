@@ -6,6 +6,98 @@
     <title>Nothing Nowhere</title>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <div>
+        <img class="main-logo" src="image/s.jpg" alt="SWRK-LOGO" />
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home"></section>
+      <section id="about" class="about">
+        <div class="sect-header">
+          <h2>Your Sound Starts Here</h2>
+          <p>
+          Boutique bedroom studio delivering pro-quality recording, mixing, and
+          production—built for artists, by artists
+          </p>
+        </div>
+        <div class="vidcon">
+          <iframe 
+            width="560" height="315" src="https://www.youtube.com/embed/REHi0JDjFaU" frameborder="0" allowfullscreen>
+          </iframe>
+          <iframe 
+            width="560" height="315" src="https://www.youtube.com/embed/ddWo2oVKL9o?si=lF97Q6BAwDYBYsq5" frameborder="0" allowfullscreen>
+          </iframe>
+          <iframe 
+            width="560" height="315" src="https://www.youtube.com/embed/mzSlwU5ga-k?si=2NqC-kHpc10TEZLL" frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
+        <div class="desc">
+          <h1>Unleash Your Sound, Wherever You Are</h1>
+          <p>At SWRK Record, we turn humble bedroom setups into powerful music hubs. Whether you're recording vocals, laying down guitar tracks, or producing beats — our mission is to help artists craft authentic, pro-level sounds from anywhere.With roots in DIY music culture and a passion for independent artistry, we provide a space where creativity thrives without limits. The videos above are just a glimpse into the sound journeys born in our studio.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Ready to Record?</h2>
+        <form id="contactForm" novalidate>
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Optional" />
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+          <p>Email: <a href="mailto:contact@takberlebih@gmail.com">contact@takberlebih@gmail.com</a></p>
+          <p>Phone: <a href="">+62 812 345 678</a></p>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-brand">
+            <h2>SWRK Record</h2>
+            <p>From humble bedroom beginnings to industry-grade results—let’s make your music unforgettable</p>
+          </div>
+          <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="https://www.youtube.com/@SWRKRecord" aria-label="YouTube" target="_blank" rel="noopener noreferrer" title="YouTube">
+              <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M23.498 6.186c-.273-1.016-1.086-1.8-2.086-1.8-2.883-.002-5.766-.002-8.649-.002-2.883 0-5.766 0-8.649.002-1 .002-1.813.784-2.086 1.8C0 8.186 0 10.001 0 12s0 3.814.002 5.814c.273 1.016 1.086 1.8 2.086 1.8 2.883.002 5.766.002 8.649.002 2.883 0 5.766 0 8.649-.002 1-.002 1.813-.784 2.086-1.8C24 15.814 24 14.001 24 12s0-3.814-.002-5.814zM9.545 15.545V8.455l6.364 3.545-6.364 3.545z"/>
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@swrkrecord" aria-label="TikTok" target="_blank" rel="noopener noreferrer" title="TikTok">
+              <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" >
+                <path d="M9.203 3c.075 3.59 3.054 6.498 6.645 6.573v3.6a9.995 9.995 0 0 1-9.95-10h3.305zm7.887-1.204c-1.226 0-2.348-.48-3.19-1.252v7.22a6.01 6.01 0 0 0 3.19 0V1.796zm3.498 4.596v3.181c-.02.003-.06.012-.06.012-1.98 0-3.63-2.053-3.63-4.57H13.5a6.178 6.178 0 0 0 6.088 6.161v3.18A9.526 9.526 0 0 1 12.56 19.5a9.5 9.5 0 0 1-9.5-9.5h3.27a6.206 6.206 0 0 0 6.374 6.035v-9.29h3.753z"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/swrkrecord/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <svg fill="currentColor" width="24" height="24" viewBox="0 0 24 24" >
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.338 3.608 1.312.976.975 1.25 2.243 1.312 3.608.058 1.267.07 1.647.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.336 2.633-1.312 3.608-.975.976-2.242 1.25-3.608 1.312-1.267.058-1.647.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.336-3.608-1.312-.976-.975-1.25-2.242-1.312-3.608C2.175 15.647 2.163 15.267 2.163 12c0-3.204.012-3.584.07-4.85.062-1.366.336-2.633 1.312-3.608.975-.976 2.243-1.25 3.608-1.312C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.07 5.75.127 4.603.394 3.635 1.363 2.668 2.332 2.4 3.48 2.342 4.781.287 4.823 0 5.186 0 8.741v6.518c0 3.546.287 3.919 2.342 3.96.058 1.302.326 2.449 1.293 3.417.967.967 2.114 1.235 3.416 1.293C8.332 23.987 8.741 24 12 24c3.259 0 3.668-.013 4.948-.07 1.302-.058 2.449-.326 3.417-1.293.967-.968 1.235-2.115 1.293-3.417.058-1.301.07-1.71.07-4.948 0-3.237-.012-3.646-.07-4.947-.058-1.302-.326-2.449-1.293-3.417-.968-.968-2.115-1.235-3.417-1.293C15.668.013 15.259 0 12 0z"/>
+                <path d="M12 5.838A6.162 6.162 0 0 0 5.838 12 6.162 6.162 0 0 0 12 18.162 6.162 6.162 0 0 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162a3.998 3.998 0 1 1 0-7.996 3.998 3.998 0 0 1 0 7.996z"/>
+                <circle cx="18.406" cy="5.594" r="1.44"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+        &copy; 2025 SWRKRecord. All rights reserved.
+        </div>
+      </footer>
+<script src="js/script.js"></script>
+  </body>
+
 </html>
